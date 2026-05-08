@@ -1,0 +1,51 @@
+[
+  {
+    "title": "index",
+    "description": "",
+    "tags": [],
+    "url": "./index.html",
+    "path": "/index.html"
+  },
+  {
+    "title": "apresentacao/06-niveis-de-uso",
+    "description": "",
+    "tags": [],
+    "url": "../apresentacao/06-niveis-de-uso.html",
+    "path": "/apresentacao/06-niveis-de-uso.html"
+  },
+  {
+    "title": "apresentacao/05-evolucao-ti",
+    "description": "",
+    "tags": [],
+    "url": "../apresentacao/05-evolucao-ti.html",
+    "path": "/apresentacao/05-evolucao-ti.html"
+  },
+  {
+    "title": "apresentacao/04-desejo-vs-realidade",
+    "description": "",
+    "tags": [],
+    "url": "../apresentacao/04-desejo-vs-realidade.html",
+    "path": "/apresentacao/04-desejo-vs-realidade.html"
+  },
+  {
+    "title": "apresentacao/03-fundamentos-ia",
+    "description": "",
+    "tags": [],
+    "url": "../apresentacao/03-fundamentos-ia.html",
+    "path": "/apresentacao/03-fundamentos-ia.html"
+  },
+  {
+    "title": "apresentacao/02-riscos",
+    "description": "",
+    "tags": [],
+    "url": "../apresentacao/02-riscos.html",
+    "path": "/apresentacao/02-riscos.html"
+  },
+  {
+    "title": "apresentacao/01-por-que-governanca",
+    "description": "",
+    "tags": [],
+    "url": "../apresentacao/01-por-que-governanca.html",
+    "path": "/apresentacao/01-por-que-governanca.html"
+  }
+]
