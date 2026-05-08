@@ -1,1 +1,14 @@
-ewogICJuYW1lIjogImNzYy1kb2NzIiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgImRlc2NyaXB0aW9uIjogIkRvY3VtZW50YcOnw6NvIGRlIEdvdmVybmFuw6dhIGRlIElBIOKAlCBHcnVwbyBDU0MiLAogICJzY3JpcHRzIjogewogICAgImJ1aWxkIjogIm5vZGUgYnVpbGQuanMiLAogICAgImRldiI6ICJub2RlIGJ1aWxkLmpzICYmIG5weCBzZXJ2ZSBkaXN0IgogIH0sCiAgImRlcGVuZGVuY2llcyI6IHsKICAgICJnbG9iIjogIl4xMC40LjUiLAogICAgImdyYXktbWF0dGVyIjogIl40LjAuMyIsCiAgICAiaGlnaGxpZ2h0LmpzIjogIl4xMS4xMC4wIiwKICAgICJtYXJrZWQiOiAiXjEyLjAuMCIKICB9Cn0K
+{
+  "name": "csc-docs",
+  "version": "1.0.0",
+  "description": "Documentação de Governança de IA — Grupo CSC",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "glob": "^10.4.5",
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.10.0",
+    "marked": "^12.0.0"
+  }
+}
