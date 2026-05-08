@@ -1,1 +1,260 @@
-LyogQ1NDIERPQyBNQUlOLkpTICovCihmdW5jdGlvbigpeyAndXNlIHN0cmljdCc7CmNvbnN0IGh0bWw9ZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LHNpZGViYXI9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3NpZGViYXInKSxzaWRlYmFyT3ZlcmxheT1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc2lkZWJhck92ZXJsYXknKSxjb2xsYXBzZUJ0bj1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc2lkZWJhckNvbGxhcHNlQnRuJyksaGFtYnVyZ2VyQnRuPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdoYW1idXJnZXJCdG4nKSxsYXlvdXRNYWluPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5sYXlvdXQtbWFpbicpLHRoZW1lVG9nZ2xlPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCd0aGVtZVRvZ2dsZScpLHNlYXJjaFRyaWdnZXI9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3NlYXJjaFRyaWdnZXInKSxtb2JpbGVTZWFyY2hCdG49ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ21vYmlsZVNlYXJjaEJ0bicpLHNlYXJjaE1vZGFsPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdzZWFyY2hNb2RhbCcpLHNlYXJjaEJhY2tkcm9wPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdzZWFyY2hCYWNrZHJvcCcpLHNlYXJjaElucHV0PWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdzZWFyY2hJbnB1dCcpLHNlYXJjaFJlc3VsdHM9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3NlYXJjaFJlc3VsdHMnKSxzY3JvbGxQcm9ncmVzcz1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc2Nyb2xsUHJvZ3Jlc3MnKSxhcnRpY2xlVGFncz1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnYXJ0aWNsZVRhZ3MnKTsKY29uc3QgaXNNb2JpbGU9KCk9PndpbmkhdGV3LmlubmVyV2lkdGg8PTc2ODsKbGV0IHNpZGViYXJDb2xsYXBzZWQ9bG9jYWxTdG9yYWdlLmdldEl0ZW0oJ2NzYy1zaWRlYmFyLWNvbGxhcHNlZCcpPT09J3RydWUnOwpmdW5jdGlvbiBhcHBseVNpZGViYXJTdGF0ZSgpe2lmKGlzTW9iaWxlKCkpe3NpZGViYXIuY2xhc3NMaXN0LnJlbW92ZSgnY29sbGFwc2VkJyk7bGF5b3V0TWFpbiYmbGF5b3V0TWFpbi5jbGFzc0xpc3QucmVtb3ZlKCdzaWRlYmFyLWNvbGxhcHNlZCcpO3JldHVybn1zaWRlYmFyLmNsYXNzTGlzdC50b2dnbGUoJ2NvbGxhcHNlZCcsc2lkZWJhckNvbGxhcHNlZCk7bGF5b3V0TWFpbiYmbGF5b3V0TWFpbi5jbGFzc0xpc3QudG9nZ2xlKCdzaWRlYmFyLWNvbGxhcHNlZCcsc2lkZWJhckNvbGxhcHNlZCl9CmNvbGxhcHNlQnRuJiZjb2xsYXBzZUJ0bi5hZGRFdmVudExpc3RlbmVyKCdjbGljaycsKCk9PntzaWRlYmFyQ29sbGFwc2VkPSFzaWRlYmFyQ29sbGFwc2VkO2xvY2FsU3RvcmFnZS5zZXRJdGVtKCdjc2Mtc2lkZWJhci1jb2xsYXBzZWQnLHNpZGViYXJDb2xsYXBzZWQpO2FwcGx5U2lkZWJhclN0YXRlKCl9KTsKZnVuY3Rpb24gb3Blbk1vYmlsZVNpZGViYXIoKXtzaWRlYmFyLmNsYXNzTGlzdC5hZGQoJ21vYmlsZS1vcGVuJyk7c2lkZWJhck92ZXJsYXkuY2xhc3NMaXN0LmFkZCgndmlzaWJsZScpO3NpZGViYXJPdmVybGF5LnN0eWxlLmRpc3BsYXk9J2Jsb2NrJztkb2N1bWVudC5ib2R5LnN0eWxlLm92ZXJmbG93PSdoaWRkZW4nfQpmdW5jdGlvbiBjbG9zZU1vYmlsZVNpZGViYXIoKXtzaWRlYmFyLmNsYXNzTGlzdC5yZW1vdmUoJ21vYmlsZS1vcGVuJyk7c2lkZWJhck92ZXJsYXkuY2xhc3NMaXN0LnJlbW92ZSgndmlzaWJsZScpO3NldFRpbWVvdXQoKCk9PntzaWRlYmFyT3ZlcmxheS5zdHlsZS5kaXNwbGF5PScnfSwyNTApO2RvY3VtZW50LmJvZHkuc3R5bGUub3ZlcmZsb3c9Jyd9CmhhbWJ1cmdlckJ0biYmaGFtYnVyZ2VyQnRuLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywoKT0+e3NpZGViYXIuY2xhc3NMaXN0LmNvbnRhaW5zKCdtb2JpbGUtb3BlbicpP2Nsb3NlTW9iaWxlU2lkZWJhcigpOm9wZW5Nb2JpbGVTaWRlYmFyKCl9KTsKc2lkZWJhck92ZXJsYXkmJnNpZGViYXJPdmVybGF5LmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJyxjbG9zZU1vYmlsZVNpZGViYXIpOwpkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCcubmF2LXNlY3Rpb24tdG9nZ2xlJykuZm9yRWFjaChidG49PntidG4uYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCgpPT57Y29uc3QgdGFyZ2V0SWQ9YnRuLmdldEF0dHJpYnV0ZSgnZGF0YS10YXJnZXQnKTtjb25zdCBjaGlsZHJlbj1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCh0YXJnZXRJZCk7aWYoIWNoaWxkcmVuKXJldHVybjtjb25zdCBpc09wZW49Y2hpbGRyZW4uY2xhc3NMaXN0LmNvbnRhaW5zKCdvcGVuJyk7YnRuLmNsYXNzTGlzdC50b2dnbGUoJ29wZW4nLCFpc09wZW4pO2NoaWxkcmVuLmNsYXNzTGlzdC50b2dnbGUoJ29wZW4nLCFpc09wZW4pfSl9KTsKY29uc3QgYmFja1RvcD1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCdidXR0b24nKTtiYWNrVG9wLmNsYXNzTmFtZT0nYmFjay10by10b3AnO2JhY2tUb3Auc2V0QXR0cmlidXRlKCdhcmlhLWxhYmVsJywnVm9sdGFyIGFvIHRvcG8nKTtiYWNrVG9wLmlubmVySFRNTD0nPHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Im0xOCAxNS02LTYtNiA2Ii8+PC9zdmc+JztkbN11bWVudC5ib2R5LmFwcGVuZENoaWxkKGJhY2tUb3ApO2JhY2tUb3AuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCgpPT53aW5kb3cuc2Nyb2xsVG8oe3RvcDowLGJlaGF2aW9yOidzbW9vdGgnfSkpOwphcHBseVNpZGViYXJTdGF0ZSgpO3dpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdyZXNpemUnLGFwcGx5U2lkZWJhclN0YXRlKTsKZnVuY3Rpb24gZ2V0SW5pdGlhbFRoZW1lKCl7Y29uc3Qgcz1sb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnY3NjLXRoZW1lJyk7aWYocylyZXR1cm4gczsgcmV0dXJuIHdpbmRvdy5tYXRjaE1lZGlhKCcocHJlZmVycy1jb2xvci1zY2hlbWU6ZGFyayknKS5tYXRjaGVzPydkYXJrJzonbGlnaHQnfQpmdW5jdGlvbiBzZXRUaGVtZSh0KXtodG1sLnNldEF0dHJpYnV0ZSgnZGF0YS10aGVtZScsdCk7bG9jYWxTdG9yYWdlLnNldEl0ZW0oJ2NzYy10aGVtZScsdCl9CnNldFRoZW1lKGdldEluaXRpYWxUaGVtZSgpKTsKdGhlbWVUb2dnbGUmJnRoZW1lVG9nZ2xlLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywoKT0+e3NldFRoZW1lKGh0bWwuZ2V0QXR0cmlidXRlKCdkYXRhLXRoZW1lJyk9PT0nZGFyayc/J2xpZ2h0JzonZGFyaycpfSk7CmZ1bmN0aW9uIHVwZGF0ZVNjcm9sbCgpe2NvbnN0IHM9d2luZG93LnNjcm9sbFl8fGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5zY3JvbGxUb3A7Y29uc3QgdD1kb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuc2Nyb2xsSGVpZ2h0LXdpbmRvdy5pbm5lckhlaWdodDtpZihzY3JvbGxQcm9ncmVzcylzY3JvbGxQcm9ncmVzcy5zdHlsZS53aWR0aD1gJHtNYXRoLm1pbih0PjA/cy90KjEwMDowLDEwMCl9JWA7YmFja1RvcC5jbGFzc0xpc3QudG9nZ2xlKCd2aXNpYmxlJyxzPjQwMCl9CndpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdzY3JvbGwnLHVwZGF0ZVNjcm9sbCx7cGFzc2l2ZTp0cnVlfSk7dXBkYXRlU2Nyb2xsKCk7CmNvbnN0IHRvY0xpbmtzPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy50b2MtbGluaycpOwppZih0b2NMaW5rcy5sZW5ndGg+MCl7Y29uc3QgaGVhZGluZ3M9Wy4uLmRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy5hcnRpY2xlLWJvZHkgaDIsLmFydGljbGUtYm9keSBoMycpXTtjb25zdCBvYnM9bmV3IEludGVyc2VjdGlvbk9ic2VydmVyKGVudHJpZXM9PntlbnRyaWVzLmZvckVhY2goZT0+e2lmKGUuaXNJbnRlcnNlY3RpbmcpeyB0b2NMaW5rcy5mb3JFYWNoKGw9Pmwu Y2xhc3NMaXN0LnJlbW92ZSgnYWN0aXZlJykpO2NvbnN0IGw9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihgLnRvYy1saW5rW2hyZWY9IiMke2UudGFyZ2V0LmlkfSJdYCk7bCYmbC5jbGFzc0xpc3QuYWRkKCdhY3RpdmUnKX19KX0se3Jvb3RNYXJnaW46Jy02MHB4IDBweCAtNzAlIDBweCd9KTtoZWFkaW5ncy5mb3JFYWNoKGg9Pm9icy5vYnNlcnZlKGgpKTt0b2NMaW5rcy5mb3JFYWNoKGw9Pntl LmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJyxlPT57ZS5wcmV2ZW50RGVmYXVsdCgpO2NvbnN0IHQ9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihsLmdldEF0dHJpYnV0ZSgnaHJlZicpKTt0JiZ0LnNjcm9sbEludG9WaWV3KHtiZWhhdmlvcjonc21vb3RoJyxibG9jazogJ3N0YXJ0J30pfSl9KX0KZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnLmFydGljbGUtYm9keSBwcmUnKS5mb3JFYWNoKHByZT0+e2NvbnN0IGNvZGU9cHJlLnF1ZXJ5U2VsZWN0b3IoJ2NvZGUnKTtpZighY29kZSlyZXR1cm47Y29uc3QgYnRuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2J1dHRvbicpO2J0bi5jbGFzc05hbWU9J2NvcHktYnRuJzsgYnRuLnNldEF0dHJpYnV0ZSgnYXJpYS1sYWJlbCcsJ0NvcGlhciBjb2RpZ28nKTtidG4udGV4dENvbnRlbnQ9J0NvcGlhcic7cHJlLmFwcGVuZENoaWxkKGJ0bik7YnRuLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJyxhc3luYygpPT57dHJ5e2F3YWl0IG5hdmlnYXRvci5jbGlwYm9hcmQud3JpdGVUZXh0KGNvZGUudGV4dENvbnRlbnR8fCcnKTtidG4udGV4dENvbnRlbnQ9J0NvcGlhZG8hJztidG4uY2xhc3NMaXN0LmFkZCgnY29waWVkJyk7c2V0VGltZW91dCgoKT0+e2J0bi50ZXh0Q29udGVudD0nQ29waWFyJztidG4uY2xhc3NMaXN0LnJlbW92ZSgnY29waWVkJyl9LDIwMDApfWNhdGNoKF8pe319KX0pOwppZihhcnRpY2xlVGFncyl7Y29uc3QgcmF3PWFydGljbGVUYWdzLnRleHRDb250ZW50LnRyaW0oKTtpZihyYXcpe2NvbnN0IHRhZ3M9cmF3LnNwbGl0KCcsJykubWFwKHQ9PnQudHJpbSgpKS5maWx0ZXIoQm9vbGVhbik7YXJ0aWNsZVRhZ3MuaW5uZXJIVE1MPXRhZ3MubWFwKHQ9PmA8c3BhbiBjbGFzcz0idGFnIj4ke3R9PC9zcGFuPmApLmpvaW4oJycpfWVsc2V7YXJ0aWNsZVRhZ3MuaW5uZXJIVE1MPScnfX0KbGV0IHNlYXJjaERhdGE9W10sc2VhcmNoTG9hZGVkPWZhbHNlLHNlYXJjaEZvY3VzSWR4PS0xOwphc3luYyBmdW5jdGlvbiBsb2FkU2VhcmNoSW5kZXgoKXtpZihzZWFyY2hMb2FkZWQpcmV0dXJuO3RyeXtjb25zdCBiYXNlPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJ2xpbmtbcmVsPSJzdHlsZXNoZWV0Il0nKS5ocmVmLnNwbGl0KCcvY3NzLycpWzBdO2NvbnN0IHJlcz1hd2FpdCBmZXRjaChgJHtiYXNlfS9zZWFyY2gtaW5kZXguanNvbmApO3NlYXJjaERhdGE9YXdhaXQgcmVzLmpzb24oKTtzZWFyY2hMb2FkZWQ9dHJ1ZX1jYXRjaChfKXt9fQpmdW5jdGlvbiBvcGVuU2VhcmNoKCl7c2VhcmNoTW9kYWwuaGlkZGVuPWZhbHNlO2RvY3VtZW50LmJvZHkuc3R5bGUub3ZlcmZsb3c9J2hpZGRlbic7c2V0VGltZW91dCgoKT0+c2VhcmNoSW5wdXQuZm9jdXMoKSw1MCk7bG9hZFNlYXJjaEluZGV4KCl9CmZ1bmN0aW9uIGNsb3NlU2VhcmNoKCl7c2VhcmNoTW9kYWwuaGlkZGVuPXRydWU7ZG9jdW1lbnQuYm9keS5zdHlsZS5vdmVyZmxvdz0nJztzZWFyY2hJbnB1dC52YWx1ZT0nJztzZWFyY2hSZXN1bHRzLmlubmVySFRNTD0nPHAgY2xhc3M9InNlYXJjaC1oaW50Ij5EaWdpdGUgcGFyYSBidXNjYXIuLi48L3A+JztzZWFyY2hGb2N1c0lkeD0tMX0Kc2VhcmNoVHJpZ2dlciYmc2VhcmNoVHJpZ2dlci5hZGRFdmVudExpc3RlbmVyKCdjbGljaycsb3BlblNlYXJjaCk7bW9iaWxlU2VhcmNoQnRuJiZtb2JpbGVTZWFyY2hCdG4uYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLG9wZW5TZWFyY2gpO3NlYXJjaEJhY2tkcm9wJiZzZWFyY2hCYWNrZHJvcC5hZGRFdmVudExpc3RlbmVyKCdjbGljaycsY2xvc2VTZWFyY2gpOwpkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdrZXlkb3duJyxlPT57aWYoKGUuY3RybEtleXx8ZS5tZXRhS2V5KSYmZS5rZXk9PT0naycpe2UucHJldmVudERlZmF1bHQoKTtzZWFyY2hNb2RhbC5oaWRkZW4/b3BlblNlYXJjaCgpOmNsb3NlU2VhcmNoKCl9aWYoZS5rZXk9PT0nRXNjYXBlJyYmIXNlYXJjaE1vZGFsLmhpZGRlbiljbG9zZVNlYXJjaCgpfSk7CmZ1bmN0aW9uIGZ1enp5KHMscSl7Y29uc3QgYT1zLnRvTG93ZXJDYXNlKCksYj1xLnRvTG93ZXJDYXNlKCk7bGV0IGk9MCxqPTAsYz0wO3doaWxlKGk8YS5sZW5ndGgmJmo8Yi5sZW5ndGgpe2lmKGFbaV09PT1iW2pdKXtjKys7aisrfWkrK31yZXR1cm4gaj09PWIubGVuZ3RoP2M6MH0KbGV0IGRlYjtzZWFyY2hJbnB1dCYmc2VhcmNoSW5wdXQuYWRkRXZlbnRMaXN0ZW5lcignaW5wdXQnLCgpPT57Y2xlYXJUaW1lb3V0KGRlYik7ZGViPXNldFRpbWVvdXQoKCk9Pntjb25zdCBxPXNlYXJjaElucHV0LnZhbHVlLnRyaW0oKTtpZighcSl7c2VhcmNoUmVzdWx0cy5pbm5lckhUTUw9JzxwIGNsYXNzPSJzZWFyY2gtaGludCI+RGlnaXRlIHBhcmEgYnVzY2FyLi4uPC9wPicgO3JldHVybn1pZighc2VhcmNoTG9hZGVkKXtzZWFyY2hSZXN1bHRzLmlubmVySFRNTD0nPHAgY2xhc3M9InNlYXJjaC1oaW50Ij5DYXJyZWdhbmRvLi4uPC9wPic7cmV0dXJufWNvbnN0IHI9c2VhcmNoRGF0YS5tYXAoaXRlbT0+KHsuLi5pdGVtLHNjb3JlOmZ1enp5KGl0ZW0udGl0bGUscSkqMytmdXp6eShpdGVtLmRlc2NyaXB0aW9uLHEpfSkpLmZpbHRlcihlPT5lLnNjb3JlPjApLnNvcnQoKGEsYik9PmIuc2NvcmUtYS5zY29yZSkuc2xpY2UoMCw4KTtpZighci5sZW5ndGgpe3NlYXJjaFJlc3VsdHMuaW5uZXJIVE1MPWA8cCBjbGFzcz0ic2VhcmNoLW5vLXJlc3VsdHMiPk5lbmh1bSByZXN1bHRhZG8gcGFyYSAiPHN0cm9uZz4ke3F9PC9zdHJvbmc+IjwvcD5gO3JldHVybn1zZWFyY2hSZXN1bHRzLmlubmVySFRNTD1yLm1hcChpPT5gPGEgaHJlZj0iJHtpLnVybH0iIGNsYXNzPSJzZWFyY2gtcmVzdWx0LWl0ZW0iPjxkaXYgY2xhc3M9InNlYXJjaC1yZXN1bHQtaWNvbiI+8J+ThDwvZGl2PjxkaXYgY2xhc3M9InNlYXJjaC1yZXN1bHQtY29udGVudCI+PGRpdiBjbGFzcz0ic2VhcmNoLXJlc3VsdC10aXRsZSI+JHtpLnRpdGxlfTwvZGl2PiR7aS5kZXNjcmlwdGlvbj9gPGRpdiBjbGFzcz0ic2VhcmNoLXJlc3VsdC1kZXNjIj4ke2kuZGVzY3JpcHRpb259PC9kaXY+YDonJ308ZGl2IGNsYXNzPSJzZWFyY2gtcmVzdWx0LXBhdGgiPiR7aS5wYXRofTwvZGl2PjwvZGl2PjwvYT5gKS5qb2luKCcnKX0sMTgwKX0pOwpjb25zb2xlLmxvZygn8J+bof+PjSBDU0MgRG9jcyBjYXJyZWdhZGEuJyl9KSgpOw==
+/* CSC DOC MAIN.JS - JavaScript Principal da Documentação */
+(function() {
+    'use strict';
+
+    // Seleção de elementos do DOM
+    const html = document.documentElement,
+        sidebar = document.getElementById('sidebar'),
+        sidebarOverlay = document.getElementById('sidebarOverlay'),
+        collapseBtn = document.getElementById('sidebarCollapseBtn'),
+        hamburgerBtn = document.getElementById('hamburgerBtn'),
+        layoutMain = document.querySelector('.layout-main'),
+        themeToggle = document.getElementById('themeToggle'),
+        searchTrigger = document.getElementById('searchTrigger'),
+        mobileSearchBtn = document.getElementById('mobileSearchBtn'),
+        searchModal = document.getElementById('searchModal'),
+        searchBackdrop = document.getElementById('searchBackdrop'),
+        searchInput = document.getElementById('searchInput'),
+        searchResults = document.getElementById('searchResults'),
+        scrollProgress = document.getElementById('scrollProgress'),
+        articleTags = document.getElementById('articleTags');
+
+    const isMobile = () => window.innerWidth <= 768;
+    
+    // Estado da Sidebar (Recolhida ou não) salvo no navegador
+    let sidebarCollapsed = localStorage.getItem('csc-sidebar-collapsed') === 'true';
+
+    function applySidebarState() {
+        if (isMobile()) {
+            sidebar.classList.remove('collapsed');
+            layoutMain && layoutMain.classList.remove('sidebar-collapsed');
+            return;
+        }
+        sidebar.classList.toggle('collapsed', sidebarCollapsed);
+        layoutMain && layoutMain.classList.toggle('sidebar-collapsed', sidebarCollapsed);
+    }
+
+    // Evento de clique para recolher/expandir a barra lateral
+    collapseBtn && collapseBtn.addEventListener('click', () => {
+        sidebarCollapsed = !sidebarCollapsed;
+        localStorage.setItem('csc-sidebar-collapsed', sidebarCollapsed);
+        applySidebarState();
+    });
+
+    // Funções para abrir/fechar o menu no celular
+    function openMobileSidebar() {
+        sidebar.classList.add('mobile-open');
+        sidebarOverlay.classList.add('visible');
+        sidebarOverlay.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeMobileSidebar() {
+        sidebar.classList.remove('mobile-open');
+        sidebarOverlay.classList.remove('visible');
+        setTimeout(() => { sidebarOverlay.style.display = ''; }, 250);
+        document.body.style.overflow = '';
+    }
+
+    hamburgerBtn && hamburgerBtn.addEventListener('click', () => {
+        sidebar.classList.contains('mobile-open') ? closeMobileSidebar() : openMobileSidebar();
+    });
+
+    sidebarOverlay && sidebarOverlay.addEventListener('click', closeMobileSidebar);
+
+    // Gerenciamento dos Acordeões (menus expansíveis) da navegação
+    document.querySelectorAll('.nav-section-toggle').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const targetId = btn.getAttribute('data-target');
+            const children = document.getElementById(targetId);
+            if (!children) return;
+            const isOpen = children.classList.contains('open');
+            btn.classList.toggle('open', !isOpen);
+            children.classList.toggle('open', !isOpen);
+        });
+    });
+
+    // Criação do botão "Voltar ao Topo"
+    const backTop = document.createElement('button');
+    backTop.className = 'back-to-top';
+    backTop.setAttribute('aria-label', 'Voltar ao topo');
+    backTop.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>';
+    document.body.appendChild(backTop);
+    backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    applySidebarState();
+    window.addEventListener('resize', applySidebarState);
+
+    // Sistema de Tema (Claro/Escuro)
+    function getInitialTheme() {
+        const s = localStorage.getItem('csc-theme');
+        if (s) return s;
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+
+    function setTheme(t) {
+        html.setAttribute('data-theme', t);
+        localStorage.setItem('csc-theme', t);
+    }
+
+    setTheme(getInitialTheme());
+    themeToggle && themeToggle.addEventListener('click', () => {
+        setTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    });
+
+    // Atualização da Barra de Progresso e Visibilidade do Botão Voltar ao Topo
+    function updateScroll() {
+        const s = window.scrollY || document.documentElement.scrollTop;
+        const t = document.documentElement.scrollHeight - window.innerHeight;
+        if (scrollProgress) scrollProgress.style.width = `${Math.min(t > 0 ? s / t * 100 : 0, 100)}%`;
+        backTop.classList.toggle('visible', s > 400);
+    }
+
+    window.addEventListener('scroll', updateScroll, { passive: true });
+    updateScroll();
+
+    // Sumário Automático (Highlight de links enquanto rola a página)
+    const tocLinks = document.querySelectorAll('.toc-link');
+    if (tocLinks.length > 0) {
+        const headings = [...document.querySelectorAll('.article-body h2, .article-body h3')];
+        const obs = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    tocLinks.forEach(l => l.classList.remove('active'));
+                    const l = document.querySelector(`.toc-link[href="#${e.target.id}"]`);
+                    l && l.classList.add('active');
+                }
+            });
+        }, { rootMargin: '-60px 0px -70% 0px' });
+        headings.forEach(h => obs.observe(h));
+
+        tocLinks.forEach(l => {
+            l.addEventListener('click', e => {
+                e.preventDefault();
+                const t = document.querySelector(l.getAttribute('href'));
+                t && t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+    }
+
+    // Botão de Copiar Código nos blocos <pre>
+    document.querySelectorAll('.article-body pre').forEach(pre => {
+        const code = pre.querySelector('code');
+        if (!code) return;
+        const btn = document.createElement('button');
+        btn.className = 'copy-btn';
+        btn.setAttribute('aria-label', 'Copiar código');
+        btn.textContent = 'Copiar';
+        pre.appendChild(btn);
+        btn.addEventListener('click', async () => {
+            try {
+                await navigator.clipboard.writeText(code.textContent || '');
+                btn.textContent = 'Copiado!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = 'Copiar';
+                    btn.classList.remove('copied');
+                }, 2000);
+            } catch (_) {}
+        });
+    });
+
+    // Processamento automático de tags (separa por vírgula e cria spans)
+    if (articleTags) {
+        const raw = articleTags.textContent.trim();
+        if (raw) {
+            const tags = raw.split(',').map(t => t.trim()).filter(Boolean);
+            articleTags.innerHTML = tags.map(t => `<span class="tag">${t}</span>`).join('');
+        } else {
+            articleTags.innerHTML = '';
+        }
+    }
+
+    // --- SISTEMA DE BUSCA ---
+    let searchData = [], searchLoaded = false, searchFocusIdx = -1;
+
+    async function loadSearchIndex() {
+        if (searchLoaded) return;
+        try {
+            const base = document.querySelector('link[rel="stylesheet"]').href.split('/css/')[0];
+            const res = await fetch(`${base}/search-index.json`);
+            searchData = await res.json();
+            searchLoaded = true;
+        } catch (_) {}
+    }
+
+    function openSearch() {
+        searchModal.hidden = false;
+        document.body.style.overflow = 'hidden';
+        setTimeout(() => searchInput.focus(), 50);
+        loadSearchIndex();
+    }
+
+    function closeSearch() {
+        searchModal.hidden = true;
+        document.body.style.overflow = '';
+        searchInput.value = '';
+        searchResults.innerHTML = '<p class="search-hint">Digite para buscar...</p>';
+        searchFocusIdx = -1;
+    }
+
+    searchTrigger && searchTrigger.addEventListener('click', openSearch);
+    mobileSearchBtn && mobileSearchBtn.addEventListener('click', openSearch);
+    searchBackdrop && searchBackdrop.addEventListener('click', closeSearch);
+
+    // Atalho de teclado (Ctrl + K ou Cmd + K) para abrir busca
+    document.addEventListener('keydown', e => {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+            e.preventDefault();
+            searchModal.hidden ? openSearch() : closeSearch();
+        }
+        if (e.key === 'Escape' && !searchModal.hidden) closeSearch();
+    });
+
+    // Função de busca simples (fuzzy search parcial)
+    function fuzzy(s, q) {
+        const a = s.toLowerCase(), b = q.toLowerCase();
+        let i = 0, j = 0, c = 0;
+        while (i < a.length && j < b.length) {
+            if (a[i] === b[j]) { c++; j++; }
+            i++;
+        }
+        return j === b.length ? c : 0;
+    }
+
+    let deb;
+    searchInput && searchInput.addEventListener('input', () => {
+        clearTimeout(deb);
+        deb = setTimeout(() => {
+            const q = searchInput.value.trim();
+            if (!q) {
+                searchResults.innerHTML = '<p class="search-hint">Digite para buscar...</p>';
+                return;
+            }
+            if (!searchLoaded) {
+                searchResults.innerHTML = '<p class="search-hint">Carregando...</p>';
+                return;
+            }
+            const r = searchData.map(item => ({
+                ...item,
+                score: fuzzy(item.title, q) * 3 + fuzzy(item.description, q)
+            })).filter(e => e.score > 0).sort((a, b) => b.score - a.score).slice(0, 8);
+
+            if (!r.length) {
+                searchResults.innerHTML = `<p class="search-no-results">Nenhum resultado para "<strong>${q}</strong>"</p>`;
+                return;
+            }
+            searchResults.innerHTML = r.map(i => `
+                <a href="${i.url}" class="search-result-item">
+                    <div class="search-result-icon">📄</div>
+                    <div class="search-result-content">
+                        <div class="search-result-title">${i.title}</div>
+                        ${i.description ? `<div class="search-result-desc">${i.description}</div>` : ''}
+                        <div class="search-result-path">${i.path}</div>
+                    </div>
+                </a>`).join('');
+        }, 180);
+    });
+
+    console.log('🚀 CSC Docs carregada.');
+})();
