@@ -1,1 +1,34 @@
-LS0tCnRpdGxlOiAiQ29tbyBhIElBIGZ1bmNpb25hIgpkZXNjcmlwdGlvbjogIlRva2VucywgY3VzdG9zIGUgY29tbyB1c2FyIElBIGRlIGZvcm1hIGNvbnNjaWVudGUgZSBlY29uw7RtaWNhLiIKaWNvbjogImNwdSIKdGFnczogWyJ0b2tlbnMiLCAiY3VzdG8iLCAiZnVuZGFtZW50b3MiXQpvcmRlcjogMwotLS0KCiMjIE8gcXVlIMOpIElBIEdlbmVyYXRpdmEKCklBIEdlbmVyYXRpdmEgw6kgdW1hIGZlcnJhbWVudGEgcXVlIGNyaWEgY29udGXDumRvIG5vdm8gYSBwYXJ0aXIgZG8gcXVlIHZvY8OqIHBlZGUgLS0gdGV4dG9zLCBjw7NkaWdvcywgYW7DoWxpc2VzLCBpbWFnZW5zLiBFbGEgYXByZW5kZXUgY29tIHVtYSBxdWFudGlkYWRlIGVub3JtZSBkZSBleGVtcGxvcyBlIGdlcmEgcmVzcG9zdGFzIG9yaWdpbmFpcyBwYXJhIGNhZGEgc29saWNpdGHDp8Ojby4KCioqRXhlbXBsb3MgZGUgdXNvIG5vIEdydXBvIENTQzoqKgotIEdlcmHDp8OjbyBkZSB0ZXh0b3MgZSByZWxhdMOzcmlvcwotIEdlcmHDp8OjbyBkZSBjw7NkaWdvIGUgYXV0b21hw6fDo28KLSBBbsOhbGlzZSBlIGluc2lnaHRzIGRlIGRhZG9zCi0gQXRlbmRpbWVudG8gZSByZXNwb3N0YXMgYXV0b21hdGl6YWRhcwoKIyMgQ29tbyBvIGN1c3RvIGZ1bmNpb25hIC0tLSBUb2tlbnMKCkEgSUEgcHJvY2Vzc2EgdGV4dG8gZW0gcGVxdWVuYXMgdW5pZGFkZXMgY2hhbWFkYXMgKip0b2tlbnMqKiAocXVlIGZ1bmNpb25hbSBjb21vIHPDrWxhYmFzIG91IHBhbGF2cmFzIGN1cnRhcykuCgp8IFNpdHVhw6fDo28gfCBDb25zdW1vIHwgQ3VzdG8gfAp8LS0tLS0tLS0tfC0tLS0tLS18LS0tLS0tfAp8IFByb21wdCBjdXJ0byArIHJlc3Bvc3RhIGN1cnRhIHwgQmFpeG8gfCBNZW5vciB8CnwgUHJvbXB0IGxvbmdvICsgcmVzcG9zdGEgbG9uZ2EgfCBBbHRvIHwgTWFpb3IgfAoKIyMgQ29tbyB1c2FyIGNvbSBjb25zY2nDqm5jaWEKCi0gKipTZWphIG9iamV0aXZvOioqIHBlcmd1bnRhcyBjbGFyYXMgZSBkaXJldGFzIGdlcmFtIG1lbGhvcmVzIHJlc3Bvc3RhcyBlIGN1c3RhbSBtZW5vcwotICoqRXZpdGUgcmVzcG9zdGFzIGxvbmdhcyBkZXNuZWNlc3PDoXJpYXM6KiogcGXDp2EgYXBlbmFzIG8gcXVlIMOpIG5lY2Vzc8OhcmlvCi0gKipNb25pdG9yZSBvIGNvbnN1bW86KiogYWNvbXBhbmhlIG8gdXNvIHBhcmEgb3RpbWl6YXIgY3VzdG9zCgo+ICoqVW1hIHBlcmd1bnRhIGNsYXJhIGUgY3VydGEgY29zdHVtYSBnZXJhciB1bWEgcmVzcG9zdGEgbWVsaG9yIGUgbWFpcyBiYXJhdGEgZG8gcXVlIHVtYSBwZXJndW50YSBsb25nYSBlIGNvbmZ1c2EuKioK
+---
+title: "Como a IA funciona"
+description: "Tokens, custos e como usar IA de forma consciente e econômica."
+icon: "cpu"
+tags: ["tokens", "custo", "fundamentos"]
+order: 3
+---
+
+## O que é IA Generativa
+
+IA Generativa é uma ferramenta que cria conteúdo novo a partir do que você pede — textos, códigos, análises, imagens. Ela aprendeu com uma quantidade enorme de exemplos e gera respostas originais para cada solicitação.
+
+**Exemplos de uso no Grupo CSC:**
+- Geração de textos e relatórios
+- Geração de código e automação
+- Análise e insights de dados
+- Atendimento e respostas automatizadas
+
+## Como o custo funciona — Tokens
+
+A IA processa texto em pequenas unidades chamadas **tokens** (que funcionam como sílabas ou palavras curtas).
+
+| Situação | Consumo | Custo |
+|----------|---------|-------|
+| Prompt curto + resposta curta | Baixo | Menor |
+| Prompt longo + resposta longa | Alto | Maior |
+
+## Como usar com consciência
+
+- **Seja objetivo:** perguntas claras e diretas geram melhores respostas e custam menos
+- **Evite respostas longas desnecessárias:** peça apenas o que é necessário
+- **Monitore o consumo:** acompanhe o uso para otimizar custos
+
+> **Uma pergunta clara e curta costuma gerar uma resposta melhor e mais barata do que uma pergunta longa e confusa.**

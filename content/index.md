@@ -1,1 +1,27 @@
-LS0tCnRpdGxlOiAiQmVtLXZpbmRvIMOgIERvY3VtZW50YcOnw6NvIgpkZXNjcmlwdGlvbjogIkNlbnRyYWwgZGUgR292ZXJuYW7Dp2EgZGUgSUEgZG8gR3J1cG8gQ1NDIC0gdHVkbyBxdWUgdm9jw6ogcHJlY2lzYSBzYWJlciBzb2JyZSBvIHVzbyBzZWd1cm8sIHBhZHJvbml6YWRvIGUgZXNjYWzDoXZlbCBkZSBJbnRlbGlnw6puY2lhIEFydGlmaWNpYWwuIgppY29uOiAiaG9tZSIKb3JkZXI6IDAKLS0tCgojIyBPIHF1ZSDDqSBlc3RhIGRvY3VtZW50YcOnw6NvPwoKRXN0ZSBlc3Bhw6dvIHJlw7puZSBhcyBwb2zDrXRpY2FzLCBkaXJldHJpemVzIGUgZ3Vpw6VzIHByw6F0aWNvcyBwYXJhIG8gdXNvIGRlIEludGVsaWfDqm5jaWEgQXJ0aWZpY2lhbCBubyBHcnVwbyBDU0MuCgojIyBQb3Igb25kZSBjb21lw6dhcj8KCjEuICoqW1BvciBxdWUgR292ZXJuYW7Dp2E/XShhcHJlc2VudGFjYW8vMDEtcG9yLXF1ZS1nb3Zlcm5hbmNhLmh0bWwpKiogLS0gZW50ZW5kYSBvIGNvbnRleHRvCjIuICoqW0Z1bmRhbWVudG9zIGRlIElBXShhcHJlc2VudGFjYW8vMDMtZnVuZGFtZW50b3MtaWEuaHRtbCkqKiAtLSBhcHJlbmRhIG8gYsOhc2ljbwozLiAqKltOw612ZWlzIGRlIFVzb10oYXByZXNlbnRhY2FvLzA2LW5pdmVpcy1kZS11c28uaHRtbCkqKiAtLSBkZXNjdWJyYSBvIHF1ZSB2b2PDqiBwb2RlIGZhemVyCgojIyBQcmluY8OtcGlvcyBmdW5kYW1lbnRhaXMKCj4gKipHb3Zlcm5hbsOnYSBuw6NvIMOpIGJ1cm9jcmFjaWEuIMOJIG8gcXVlIHRyYW5zZm9ybWEgaW5pY2lhdGl2YXMgaXNvbGFkYXMgZW0gdmFsb3IgcmVhbCBwYXJhIG8gR3J1cG8uKioKCnwgUGlsYXIgfCBPIHF1ZSBzaWduaWZpY2EgfAp8LS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tfAp8ICoqUGFkcm9uaXphw6fDo28qKiB8IFJlZ3JhcyBjbGFyYXMgZSBjb25zaXN0ZW50ZXMgcGFyYSB0b2RvcyB8CnwgKipTZWd1cmFuw6dhKiogfCBEYWRvcyBzZW5zw612ZWlzIHByb3RlZ2lkb3MgZGVzZGUgbyBpbsOtY2lvIHwKfCAqKkVzY2FsYWJpbGlkYWRlKiogfCBPIHF1ZSBmdW5jaW9uYSBlbSB1bWEgw6FyZWEgc2VydmUgcGFyYSB0b2RhcyB8CnwgKipDdWx0dXJhKiogfCBDb25zY2llbnRpemHDp8OjbywgdHJlaW5hbWVudG8gZSBhcG9pbyBjb250w61udW9zIHwK
+---
+title: "Bem-vindo à Documentação"
+description: "Central de Governança de IA do Grupo CSC — tudo que você precisa saber sobre o uso seguro, padronizado e escalável de Inteligência Artificial."
+icon: "home"
+order: 0
+---
+
+## O que é esta documentação?
+
+Este espaço reúne as políticas, diretrizes e guias práticos para o uso de Inteligência Artificial no Grupo CSC. O objetivo é simples: garantir que todos os colaboradores possam usar IA com **segurança, inteligência e escala**.
+
+## Por onde começar?
+
+1. **[Por que Governança?](apresentacao/01-por-que-governanca.html)** — entenda o contexto e a necessidade
+2. **[Fundamentos de IA](apresentacao/03-fundamentos-ia.html)** — aprenda o básico antes de usar
+3. **[Níveis de Uso](apresentacao/06-niveis-de-uso.html)** — descubra o que você pode e deve fazer
+
+## Princípios fundamentais
+
+> **Governança não é burocracia. É o que transforma iniciativas isoladas em valor real para o Grupo.**
+
+| Pilar | O que significa |
+|-------|----------------|
+| **Padronização** | Regras claras e consistentes para todos |
+| **Segurança** | Dados sensíveis protegidos desde o início |
+| **Escalabilidade** | O que funciona em uma área serve para todas |
+| **Cultura** | Conscientização, treinamento e apoio contínuos |

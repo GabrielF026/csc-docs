@@ -1,1 +1,37 @@
-LS0tCnRpdGxlOiAiRGVzZWpvIHZzLiBSZWFsaWRhZGUiCmRlc2NyaXB0aW9uOiAiTmVtIHRvZG8gdXNvIGRlIElBIGdlcmEgdmFsb3IuIEVxdWlsw61icmlvIGVudHJlIGRlc2VqbywgdmlhYmlsaWRhZGUgZSBpbXBhY3RvIHJlYWwuIgppY29uOiAic2NhbGUiCnRhZ3M6IFsiZXN0cmF0w6lnaWEiLCAiZGVjaXPDo28iLCAicm9pIl0Kb3JkZXI6IDQKLS0tCgojIyBPIHF1ZSBxdWVyZW1vcyBhY3JlZGl0YXIKCU7DoyBpbWFnaW7DoXJpbyBhY3JlZGl0YXIgcXVlIElBIHJlc29sdmUgdHVkbyBhdXRvbWF0aWNhbWVudGUuIE9zIGRlc2Vqb3MgbWFpcyBjb211bnM6CgotIElub3ZhciByw6FwaWRvIGUgbGFuw6FhciBzb2x1w6fDtWVzIGNvbSBJQQotIEF1dG9tYXRpemFyIHR1ZG8gZSByZWR1emlyIGVzZm9yw6dvIG1hbnVhbAotIENyaWFyIHByb2R1dG9zIGludGVsaWdlbnRlcyBlIGRpZmVyZW5jaWFkb3MKLSBBY3JlZGl0YXIgcXVlIElBIHNlbXByZSBnZXJhIFJPSQoKIyMgQSByZWFsaWRhZGUgcHLDoXRpY2EKCnwgRGVzZWpvIHwgUmVhbGlkYWRlIHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IElBIHJlc29sdmUgdHVkbyB8IE5lbSB0b2RhIElBIHJlc29sdmUgbyBwcm9ibGVtYSBjZXJ0byB8CnwgRGFkb3Mgc2VtcHJlIGRpc3BvbsOtdmVpcyB8IERhZG9zIGRlIHF1YWxpZGFkZSBzw6NvIGxpbWl0YWRvcyB8CnwgRXNjYWxhIGF1dG9tw6F0aWNhIHwgSW50ZWdyYcOnw6NvIGUgZXNjYWxhIG7Do28gc8OjbyBzaW1wbGVzIHwKfCBDdXN0byBwcmV2aXPDrXZlbCB8IEN1c3RvcyBwb2RlbSBjcmVzY2VyIHNlbSBjb250cm9sZSB8CgojIyBBcyBwZXJndW50YXMgcXVlIGltcG9ydGFtCgpBbnRlcyBkZSBpbmljaWFyIHF1YWxxdWVyIHByb2pldG8gY29tIElBLCByZXNwb25kYToKCjEuICoqUXVhbCBwcm9ibGVtYSByZWFsKiogZGUgbmVnw7NjaW8gZXN0YW1vcyByZXNvbHZlbmRvPwoyLiAqKkNvbW8gdmFtb3MgbWVkaXIqKiBvIHN1Y2Vzc28/CjMuIE8gdXNvIGVzdMOhICoqYWxpbmhhZG8gw6BzIG5vc3NhcyBwb2zDrXRpY2FzKiogZGUgc2VndXJhbsOnYT8KNC4gTyBjdXN0byDDqSAqKmp1c3RpZmljw6F2ZWwqKiBwZWxvIHZhbG9yIGdlcmFkbz8KNS4gVGVtb3MgY2FwYWNpZGFkZSBkZSAqKmVzY2FsYXIgZSBzdXN0ZW50YXIqKiBhIHNvbHXDp8Ojbz8KCj4gKipOb3NzYSBtZXRhOiBmb2NhciBubyBxdWUgcmVhbG1lbnRlIGdlcmEgdmFsb3IsIMOpIHNlZ3Vybywgc2NhbMOhdmVsIGUgc3VzdGVudMOhdmVsIHBhcmEgbyBHcnVwby4qKgo=
+---
+title: "Desejo vs. Realidade"
+description: "Nem todo uso de IA gera valor. Equilíbrio entre desejo, viabilidade e impacto real."
+icon: "scale"
+tags: ["estratégia", "decisão", "roi"]
+order: 4
+---
+
+## O que queremos acreditar
+
+É tentador pensar que colocar IA em qualquer processo vai automaticamente tornar a empresa mais moderna. Os desejos mais comuns:
+
+- Inovar rápido e lançar soluções com IA
+- Automatizar tudo e reduzir esforço manual
+- Criar produtos inteligentes e diferenciados
+- Acreditar que IA sempre gera ROI
+
+## A realidade prática
+
+| Desejo | Realidade |
+|--------|----------|
+| IA resolve tudo | Nem toda IA resolve o problema certo |
+| Dados sempre disponíveis | Dados de qualidade são limitados |
+| Escala automática | Integração e escala não são simples |
+| Custo previsível | Custos podem crescer sem controle |
+
+## As perguntas que importam
+
+Antes de iniciar qualquer projeto com IA, responda:
+
+1. **Qual problema real** de negócio estamos resolvendo?
+2. **Como vamos medir** o sucesso?
+3. O uso está **alinhado às nossas políticas** de segurança?
+4. O custo é **justificável** pelo valor gerado?
+5. Temos capacidade de **escalar e sustentar** a solução?
+
+> **Nossa meta: focar no que realmente gera valor, é seguro, escalável e sustentável para o Grupo.**

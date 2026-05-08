@@ -1,1 +1,62 @@
-LS0tCnRpdGxlOiAiTsOtdmVpcyBkZSB1c28gZGUgSUEiCmRlc2NyaXB0aW9uOiAiT3MgNSBuw612ZWlzIGRlIG1hdHVyaWRhZGUgcGFyYSB1c28gZGUgSUEgbm8gR3J1cG8gQ1NDIC0tIGRvIGNvbGFib3JhZG9yIMOgIHBsYXRhZm9ybWEgY3LDrXRpY2EuIgppY29uOiAibGF5ZXJzIgp0YWdzOiBbIm7DsXZlaXMiLCAiYXV0b25vbWlhIiwgImNvbnRyb2xlIiwgInBvbMOtdGljYSJdCm9yZGVyOiA2Ci0tLQoKIyMgVmlzw6NvIGdlcmFsCgpOZW0gdG9kbyB1c28gZGUgSUEgw6kgaWd1YWwuIE8gR3J1cG8gQ1NDIG9yZ2FuaXphIG8gdXNvIGVtICoqNSBuw612ZWlzKiogLS0gZG8gbWFpcyBzaW1wbGVzIGFvIG1haXMgY3LDrXRpY28uCgojIyBPcyA1IG7DtXZlaXMKCiMjIyBOMSAtLS0gQ29udGXDumRvIMK3IExpdnJlCioqTyBxdWUgw6k6KiogdGV4dG9zLCBlLW1haWxzLCByZWxhdMOzcmlvcyBlIGFwcmVzZW50YcOnw7VlcyBzZW0gZGFkb3Mgc2Vuc8OtdmVpcy4KKipGZXJyYW1lbnRhczoqKiBHZW1pbmkgQ2hhdCwgR29vZ2xlIERvY3MsIEdtYWlsLCBTbGlkZXMuCioqUXVlbSB1c2E6KiogcXVhbHF1ZXIgY29sYWJvcmFkb3IsIHNlbSBhcHJvdmHDp8Ojby4KCi0tLQoKIyMjIE4yIC0tLSBJbnRlcmZhY2UgdmlzdWFsIHNpbXBsZXMgwrcgTGl2cmUgKGNvbSB0cmFuc3BhcsOqbmNpYSkKKipPIHF1ZSDDqToqKiBkYXNoYm9hcmRzIGUgcMOhZ2luYXMgc2ltcGxlcywgc2VtIGxvZ2luIGUgc2VtIGRhZG9zIHBlc3NvYWlzLgoqKlJlZ3JhOioqIGEgw6FyZWEgcG9kZSBkZXNlbnZvbHZlciBlIHB1YmxpY2FyLCBtYXMgKipkZXZlIGF2aXNhciBhIFRJKiogYW50ZXMuCgotLS0KCiMjIyBOMyAtLS0gRmVycmFtZW50YSBpbnRlcm5hIMK3IE1vbml0b3JhZG8KKipPIHF1ZSDDqToqKiBhdXRvbWHDp8O1ZXMgaW50ZXJuYXMgc2VtIGRhZG9zIHBlc3NvYWlzIGRlIGNsaWVudGVzIG91IGNvbGFib3JhZG9yZXMuCioqUmVncmE6KiogVEkgZGV2ZSBzZXIgaW5mb3JtYWRhLiAqKkNhZGFzdHJvIG9icmlnYXTDs3Jpby4qKiBVc28gbW9uaXRvcmFkby4KCi0tLQoKIyMjIE40IC0tLSBTaXN0ZW1hIGRlIG5lZ8OzY2lvIMK3IEdvdmVybmFkbwoqKk8gcXVlIMOpOioqIHNpc3RlbWFzIGNvbSBsb2dpbiwgZGFkb3MgZGUgY2xpZW50ZXMsIGludGVncmHDp8OjbyBjb20gRVJQLCBmaW5hbmNlaXJvIG91IG9wZXJhw6fDtWVzLgoqKlJlZ3JhOioqICoqVEkgZW52b2x2aWRhIG9icmlnYXRvcmlhbWVudGUuKiogQXByb3Zhw6fDo28gZSBhY29tcGFuaGFtZW50byBjb250w61udW8uCgotLS0KCiMjIyBONSAtLS0gUGxhdGFmb3JtYSBjcsOtdGljYSDCtyBDcsOtdGljbwoqKk8gcXVlIMOpOioqIHNpc3RlbWFzIGNvcnBvcmF0aXZvcyBxdWUgc3VzdGVudGFtIGEgb3BlcmHDp8OjbyBkbyBHcnVwbyBvdSBkZSB2w6FyaWFzIHVuaWRhZGVzLgoqKlJlZ3JhOioqICoqU2VtIGF1dG9ub21pYSBpbmRpdmlkdWFsLioqIEdvdmVybmFuw6dhIGNvcnBvcmF0aXZhIGUgY29udHJvbGUgcmlnb3Jvc28uCgotLS0KCiMjIFJlc3VtbyBleGVjdXRpdm8KCnwgTsOtdmVsIHwgVGlwbyB8IENvbnRyb2xlIHwKfC0tLS0tLXwtLS0tLS18LS0tLS0tLS18CnwgTjEgfCBBc3Npc3RlbnRlIHBlc3NvYWwgfCBMaXZyZSB8CnwgTjIgfCBJbnRlcmZhY2UgdmlzdWFsIHwgTGl2cmUgKGF2aXNlIGEgVEkpIHwKfCBOMyB8IEZlcnJhbWVudGEgaW50ZXJuYSB8IE1vbml0b3JhZG8gfAp8IE40IHwgU2lzdGVtYSBkZSBuZWfDs2NpbyB8IEdvdmVybmFkbyB8CnwgTjUgfCBQbGF0YWZvcm1hIGNyw610aWNhIHwgQ3LDrXRpY28gfAoKPiAqKlF1YW50byBtYWlvciBvIGltcGFjdG8gZGEgZmVycmFtZW50YSBubyBuZWfDs2NpbywgbWFpb3IgbyBjdWlkYWRvIGUgbyBlbnZvbHZpbWVudG8gZGEgVEkuIElzc28gcHJvdGVnZSBhIGVtcHJlc2EgLS0gZSBwcm90ZWdlIHZvY8OqLioqCg==
+---
+title: "Níveis de uso de IA"
+description: "Os 5 níveis de maturidade para uso de IA no Grupo CSC — do colaborador à plataforma crítica."
+icon: "layers"
+tags: ["níveis", "autonomia", "controle", "política"]
+order: 6
+---
+
+## Visão geral
+
+Nem todo uso de IA é igual. O Grupo CSC organiza o uso em **5 níveis** — do mais simples ao mais crítico.
+
+## Os 5 níveis
+
+### N1 — Conteúdo · Livre
+**O que é:** textos, e-mails, relatórios e apresentações sem dados sensíveis.
+
+**Ferramentas:** Gemini Chat, Google Docs, Gmail, Slides.
+
+**Quem usa:** qualquer colaborador, sem aprovação.
+
+---
+
+### N2 — Interface visual simples · Livre (com transparência)
+**O que é:** dashboards e páginas simples, sem login e sem dados pessoais.
+
+**Regra:** a área pode desenvolver e publicar, mas **deve avisar a TI** antes.
+
+---
+
+### N3 — Ferramenta interna · Monitorado
+**O que é:** automações internas sem dados pessoais de clientes ou colaboradores.
+
+**Regra:** TI deve ser informada. **Cadastro obrigatório.** Uso monitorado.
+
+---
+
+### N4 — Sistema de negócio · Governado
+**O que é:** sistemas com login, dados de clientes, integração com ERP, financeiro ou operações.
+
+**Regra:** **TI envolvida obrigatoriamente.** Aprovação e acompanhamento contínuo.
+
+---
+
+### N5 — Plataforma crítica · Crítico
+**O que é:** sistemas corporativos que sustentam a operação do Grupo ou de várias unidades.
+
+**Regra:** **Sem autonomia individual.** Governança corporativa e controle rigoroso.
+
+---
+
+## Resumo executivo
+
+| Nível | Tipo | Controle |
+|-------|------|----------|
+| N1 | Assistente pessoal | Livre |
+| N2 | Interface visual | Livre (avise a TI) |
+| N3 | Ferramenta interna | Monitorado |
+| N4 | Sistema de negócio | Governado |
+| N5 | Plataforma crítica | Crítico |
+
+> **Quanto maior o impacto da ferramenta no negócio, maior o cuidado e o envolvimento da TI.**

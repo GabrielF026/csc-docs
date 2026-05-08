@@ -1,1 +1,35 @@
-LS0tCnRpdGxlOiAiUG9yIHF1ZSBwcmVjaXNhbW9zIGRlIEdvdmVybmFuw6dhIGRlIElBPyIKZGVzY3JpcHRpb246ICJFbnRlbmRhIG8gY29udGV4dG8sIG9zIGRlc2FmaW9zIGUgYXMgb3BvcnR1bmlkYWRlcyBwYXJhIG8gdXNvIG9yZ2FuaXphZG8gZGUgSUEgbm8gR3J1cG8gQ1NDLiIKaWNvbjogInNoaWVsZC1jaGVjayIKdGFnczogWyJnb3Zlcm5hbsOnYSIsICJpbnRyb2R1w6fDo28iLCAiZXN0cmF0w6lnaWEiXQpvcmRlcjogMQotLS0KCiMjIE8gcXVlIGVzdMOhIGFjb250ZWNlbmRvIGhvamUKCkZlcnJhbWVudGFzIGNvbW8gQ2hhdEdQVCwgR2VtaW5pIGUgQ2xhdWRlIGrDoSBmYXplbSBwYXJ0ZSBkbyBkaWEgYSBkaWEgZGUgbXVpdGEgZ2VudGUgbm8gdHJhYmFsaG8uIE8gcHJvYmxlbWEgw6kgcXVlIGNhZGEgw6FyZWEgZXN0w6EgcmVzb2x2ZW5kbyBvcyBwcsOzcHJpb3MgcHJvYmxlbWFzICoqc2VtIGNvbnZlcnNhciBjb20gYXMgb3V0cmFzKiouCgojIyBPIHF1ZSBwb2RlIGRhciBlcnJhZG8KClNlbSBvcmdhbml6YcOnw6NvLCBkb2lzIHJpc2NvcyBjcmVzY2VtIHNpbGVuY2lvc2FtZW50ZToKCi0gKipSZXRyYWJhbGhvOioqIGR1YXMgw6FyZWFzIHBvZGVtIGNyaWFyIGEgbWVzbWEgc29sdcOnw6NvIGFvIG1lc21vIHRlbXBvIHNlbSBzYWJlcgotICoqRGFkb3MgZW0gcmlzY286Kiogw6kgcG9zc8OtdmVsIHVzYXIgSUEgY29tIGluZm9ybWHDp8O1ZXMgY29uZmlkZW5jaWFpcyBzZW0gcGVyY2ViZXIgbyByaXNjbwoKIyMgUG9yIHF1ZSBpc3NvIMOpIHVtYSBvcG9ydHVuaWRhZGUKCkNvbSByZWdyYXMgY2xhcmFzLCBvIHF1ZSBmdW5jaW9uYSBlbSB1bWEgw6FyZWEgcG9kZSBzZXIgYXByb3ZlaXRhZG8gcG9yIHRvZGFzLiBBIElBIGRlaXhhIGRlIHNlciBhbGdvIGlzb2xhZG8gZSB2aXJhIHVtYSAqKnZhbnRhZ2VtIHJlYWwgcGFyYSBvIG5lZ8OzY2lvIGludGVpcm8qKi4KCj4gKipHb3Zlcm5hbsOnYSBuw6NvIMOpIGJ1cm9jcmFjaWEgLS0gw6kgbyBxdWUgdHJhbnNmb3JtYSB1bWEgYm9hIGlkZWlhIGlzb2xhZGEgZW0gdmFsb3IgcGFyYSB0b2RhIGEgZW1wcmVzYS4qKgoKIyMgTyBxdWUgcHJlY2lzYW1vcyBmYXplcgoKfCBBw6fDo28gfCBQb3IgcXXDqiB8CnwtLS0tLS18LS0tLS0tLXwKfCBQYWRyb25pemFyIG8gdXNvIGRlIElBIHwgUmVncmFzIGNsYXJhcyBlIGNvbnNpc3RlbnRlcyBldml0YW0gcmV0cmFiYWxobyB8CnwgR2FyYW50aXIgc2VndXJhbsOnYSBlIGNvbmZvcm1pZGFkZSB8IFBvbMOtdGljYXMgZGUgdXNvIGRlc2RlIG8gaW7DrWNpbyB8CnwgQ3JpYXIgY3VsdHVyYSBlc3RydXR1cmFkYSB8IENvbnNjaWVudGl6YcOnw6NvLCB0cmVpbmFtZW50byBlIGFwb2lvIHwKfCBQZXJtaXRpciBllNzNhbGEgY29ycG9yYXRpdmEgfCBMZXZhciBhcyBtZWxob3JlcyBzb2x1w6fDtWVzIHBhcmEgdG9kbyBvIEdydXBvIHwK
+---
+title: "Por que precisamos de Governança de IA?"
+description: "Entenda o contexto, os desafios e as oportunidades para o uso organizado de IA no Grupo CSC."
+icon: "shield-check"
+tags: ["governança", "introdução", "estratégia"]
+order: 1
+---
+
+## O que está acontecendo hoje
+
+Ferramentas como ChatGPT, Gemini e Claude já fazem parte do dia a dia de muita gente no trabalho — e isso é positivo. Cada vez mais colaboradores ganham velocidade e autonomia usando IA para escrever textos, analisar dados e automatizar tarefas.
+
+O problema é que cada área está resolvendo os próprios problemas **sem conversar com as outras**.
+
+## O que pode dar errado
+
+Sem organização, dois riscos crescem silenciosamente:
+
+- **Retrabalho:** duas áreas podem criar a mesma solução ao mesmo tempo sem saber
+- **Dados em risco:** alguém pode usar IA com informações confidenciais sem perceber o problema
+
+## Por que isso é uma oportunidade
+
+Com regras claras e organização, o que funciona em uma área pode ser aproveitado por todas. A IA deixa de ser algo isolado e vira uma **vantagem real para o negócio inteiro**.
+
+> **Governança não é burocracia — é o que transforma uma boa ideia isolada em valor para toda a empresa.**
+
+## O que precisamos fazer
+
+| Ação | Por quê |
+|------|------|
+| Padronizar o uso de IA | Regras claras e consistentes evitam retrabalho |
+| Garantir segurança e conformidade | Políticas de uso desde o início |
+| Criar cultura estruturada | Conscientização, treinamento e apoio |
+| Permitir escala corporativa | Levar as melhores soluções para todo o Grupo |

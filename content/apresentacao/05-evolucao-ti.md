@@ -1,1 +1,42 @@
-LS0tCnRpdGxlOiAiRXZvbHXDp8OjbyBkYSDDoXJlYSBkZSBUSSIKZGVzY3JpcHRpb246ICJBIGpvcm5hZGEgZGUgRGFkb3MgVSBJQSDihpIgR292ZXJuYW7Dp2Egbm8gR3J1cG8gQ1NDIGRlc2RlIDIwMjQuIgppY29uOiAidHJlbmRpbmctdXAiCnRhZ3M6IFsiZGF0YS1sYWtlIiwgImRhdGEtbWVzaCIsICJoaXN0w7NyaWEiXQpvcmRlcjogNQotLS0KCiMjIEEgcGVyZ3VudGEgcXVlIG11ZG91IHR1ZG8KCkVtIDIwMjQsIHVtYSBwZXJndW50YSBzaW1wbGVzIGRlc3BlcnRvdSBhIHRyYW5zZm9ybWHDp8OjbzoKCj4gKipRdWFuZG8gZGV2ZW1vcyB0cm9jYXIgZGUgw7RuaWJ1cz8qKgoKUGFyYSByZXNwb25kZXIgY29tIHByZWNpc8OjbywgcGVyY2ViZW1vcyBxdWUgcHJlY2lzw6F2YW1vcyBkZSAqKmRhZG9zKiouIEEgcGFydGlyIGRhw60sIGNvbnN0cnXDrW1vcyBvIERhdGFMYWtlIC0tIGNlbnRyYWxpemFuZG8gZSBlc3RydXR1cmFuZG8gYXMgaW5mb3JtYcOnw7VlcyBkbyBHcnVwby4KCiMjIEEgam9ybmFkYSBlbSB0csOqcyBmYXNlcwoKIyMjIDIwMjQgLS0tIERhZG9zIGRlIHF1YWxpZGFkZQotIENvbnN0cnXDp8OjbyBkbyBEYXRhTGFrZQotIENlbnRyYWxpemHDp8OjbyBlIGVzdHJ1dHVyYcOnw6NvIGRlIGRhZG9zCi0gQmFzZSBwYXJhIGRlY2lzw7VlcyBvcmllbnRhZGFzIHBvciBkYWRvcwoKIyMjIDIwMjQtLTIwMjUgLS0tIERhdGEgTWVzaAp8IFByaW5jw61waW8gfCBTaWduaWZpY2FkbyB8CnwtLS0tLS0tLS0tfC0tLS0tLS0tLS18CnwgRGFkb3MgY29tbyBwcm9kdXRvIHwgRGFkb3MgY29tIGRvbm8sIHF1YWxpZGFkZSBlIGNpY2xvIGRlIHZpZGEgfAp8IERvbcOtbmlvcyBvcmllbnRhZG9zIGEgbmVnw7NjaW8gfCBDYWRhIMOhcmVhIHB1YmxpY2EgZGFkb3MgcXVlIGdlcmFtIHZhbG9yIHwKfCBHb3Zlcm5hbsOnYSBmZWRlcmFkYSB8IFBhZHLDtWVzIGNvbXVucyBjb20gYXV0b25vbWlhIGRvcyBkb23DrW5pb3MgfAp8IFBsYXRhZm9ybWEgY29tbyBoYWJpbGl0YWRvciB8IFRlY25vbG9naWEgYXBvaWEsIG1hcyBuw6NvIGNvbnRyb2xhIHwKCiMjIyAyMDI2IC0tLSBJQSBjb20gR292ZXJuYW7Dp2EKCi0gSW5zaWdodHMgcHJlZGl0aXZvcyBlIGF1dG9tYcOnw6NvIGludGVsaWdlbnRlCi0gUG9sw610aWNhcyBjbGFyYXMgZGUgdXNvIGUgY29udHJvbGUgZGUgY3VzdG9zCi0gQ29uZm9ybWlkYWRlIGNvbSBMR1BEIGUgYm9hcyBwcsOhdGljYXMKCiMjIEEgZXF1YcOnw6NvCgpgYGAKRGFkb3MgZGUgcXVhbGlkYWRlICsgRGF0YSBNZXNoICsgSUEgY29tIEdvdmVybmFuw6dhID0gVmFsb3IgcGFyYSBvIG5lZ8OzY2lvCmBgYAo=
+---
+title: "Evolução da área de TI"
+description: "A jornada de Dados → IA → Governança no Grupo CSC desde 2024."
+icon: "trending-up"
+tags: ["data-lake", "data-mesh", "história"]
+order: 5
+---
+
+## A pergunta que mudou tudo
+
+Em 2024, uma pergunta simples despertou a transformação:
+
+> *"Quando devemos trocar de ônibus?"*
+
+Para responder com precisão, percebemos que precisávamos de **dados**. A partir daí, construímos o DataLake — centralizando e estruturando as informações do Grupo.
+
+## A jornada em três fases
+
+### 2024 — Dados de qualidade
+- Construção do DataLake
+- Centralização e estruturação de dados
+- Base para decisões orientadas por dados
+
+### 2024–2025 — Data Mesh
+
+| Princípio | Significado |
+|-----------|------------|
+| Dados como produto | Dados com dono, qualidade e ciclo de vida |
+| Domínios orientados a negócio | Cada área publica dados que geram valor |
+| Governança federada | Padrões comuns com autonomia dos domínios |
+| Plataforma como habilitador | Tecnologia apoia, mas não controla |
+
+### 2026 — IA com Governança
+- Insights preditivos e automação inteligente
+- Políticas claras de uso e controle de custos
+- Conformidade com LGPD e boas práticas
+
+## A equação
+
+```
+Dados de qualidade + Data Mesh + IA com Governança = Valor para o negócio
+```

@@ -1,1 +1,37 @@
-LS0tCnRpdGxlOiAiUmlzY29zIGRhIGZhbHRhIGRlIEdvdmVybmFuw6dhIgpkZXNjcmlwdGlvbjogIk8gdXNvIGRlc2NlbnRyYWxpemFkbyBkZSBJQSBwb2RlIGdlcmFyIHJpc2NvcyBvcGVyYWNpb25haXMsIGZpbmFuY2Vpcm9zLCByZWd1bGF0w7NyaW9zIGUgZGUgcmVwdXRhw6fDo28uIgppY29uOiAiYWxlcnQtdHJpYW5nbGUiCnRhZ3M6IFsicmlzY29zIiwgInNlZ3VyYW7Dp2EiLCAibGdwZCJdCm9yZGVyOiAyCi0tLQoKIyMgTyBwcm9ibGVtYSBjZW50cmFsCgpTZW0gZ292ZXJuYW7Dp2EsIG8gdXNvIGRlIElBIHBvZGUgZ2VyYXIgcmlzY29zIG9wZXJhY2lvbmFpcywgZmluYW5jZWlyb3MsIHJlZ3VsYXTDs3Jpb3MgZSBkZSByZXB1dGHDp8OjbyBwYXJhIGEgZW1wcmVzYS4KCj4gKipPcyBwZXF1ZW5vcyBwcm9ibGVtYXMgZGUgaG9qZSB2aXJhbSBncmFuZGVzIHJpc2NvcyBhbWFuaMOjLioqCgojIyBDYWRlaWEgZGUgcmlzY29zCgoqKlVzbyBkZXNjZW50cmFsaXphZG8gZSBzb2x1w6fDtWVzIGlzb2xhZGFzKioKQ2FkYSDDoXJlYSBjcmlhIHN1YXMgcHLDs3ByaWFzIHNvbHXDp8O1ZXMgc2VtIHBhZHLDo28gb3UgcmV1dGlsaXphw6fDo28g4oCUIGdlcmFuZG8gZXNmb3LDp28gZHVwbGljYWRvIGUgZGVzcGVyZMOtY2lvIGRlIHJlY3Vyc29zLgoKKipGYWx0YSBkZSBjb250cm9sZSBkZSBkYWRvcyBlIHByaXZhY2lkYWRlKioKVXNvIGRlIElBIHNlbSBjcml0w6lyaW9zIGNsYXJvcyBwYXJhIGRhZG9zIHNlbnPDrXZlaXMgcG9kZSBleHBvciBpbmZvcm1hw6fDtWVzIGRlIGNsaWVudGVzIGUgY29sYWJvcmFkb3Jlcy4KCioqRmVycmFtZW50YXMgc2VtIHBhZHLDo28qKgpTb2x1w6fDtWVzIHF1ZSBuw6NvIGNvbnZlcnNhbSBlbnRyZSBzaSDDrW1wZWRlbSBkZWNpc8O1ZXMgYmFzZWFkYXMgZW0gZGFkb3MgY29tcGxldG9zLgoKIyMgQ29uc2Vxdc OqbmNpYXMgcGFyYSBvIG5lZ8OzY2lvCgp8IENvbnNlcXXDqm5jaWEgfCBJbXBhY3RvIHwKfC0tLS0tLS0tLS0tfC0tLS0tLS18CnwgQXVtZW50byBkZSBjdXN0b3MgfCBFc2Zvcsdvw6dvIGR1cGxpY2FkbyBlIHBlcmRhIGRlIGVmaWNpw6puY2lhIHwKfCBSaXNjb3MgbGVnYWlzIHwgTXVsdGFzLCBzYW7Dp8O1ZXMgZSBwZXJkYSBkZSBjb25maWFuw6dhIHwKfCBEZWNpc8O1ZXMgcnVpbnMgfCBEYWRvcyBpbmNvbXBsZXRvcyBlIHBlcmRhIGRlIGFnaWxpZGFkZSB8CnwgUGFyYWRhcyBvcGVyYWNpb25haXMgfCBGYWxoYXMgZW0gcHJvZHXDp8OjbyBlIGludGVycnVww6fDtWVzIGRlIHNlcnZpw6dvIHwK
+---
+title: "Riscos da falta de Governança"
+description: "O uso descentralizado de IA pode gerar riscos operacionais, financeiros, regulatórios e de reputação."
+icon: "alert-triangle"
+tags: ["riscos", "segurança", "lgpd"]
+order: 2
+---
+
+## O problema central
+
+Sem governança, o uso de IA pode gerar riscos operacionais, financeiros, regulatórios e de reputação para a empresa.
+
+> **Os pequenos problemas de hoje viram grandes riscos amanhã.**
+
+## Cadeia de riscos
+
+**Uso descentralizado e soluções isoladas**
+Cada área cria suas próprias soluções sem padrão ou reutilização — gerando esforço duplicado e desperdício de recursos.
+
+**Falta de controle de dados e privacidade**
+Uso de IA sem critérios claros para dados sensíveis pode expor informações de clientes e colaboradores.
+
+**Ferramentas sem padrão**
+Soluções que não conversam entre si criam silos de dados e dependência de fornecedores específicos.
+
+## Consequências para o negócio
+
+| Consequência | Impacto |
+|-------------|-------|
+| Aumento de custos | Esforço duplicado e perda de eficiência |
+| Riscos legais | Multas, sanções e perda de confiança |
+| Decisões ruins | Dados incompletos e perda de agilidade |
+| Paradas operacionais | Falhas em produção e interrupções de serviço |
+
+## O que muda com governança
+
+Com regras claras, cada área sabe o que pode usar, como usar e onde pedir ajuda. O que funciona bem em um time pode ser compartilhado com toda a empresa.
