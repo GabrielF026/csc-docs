@@ -32,6 +32,7 @@
     <nav class="sidebar-nav"><ul class="nav-list "><li><a href="/index.html" class="nav-item "><span>Início</span></a></li><li class="nav-section-item">
                 <button class="nav-section-toggle open" data-target="nav-apresentacao">
                     <span>Apresentação</span>
+                    <i data-lucide="chevron-right" class="nav-chevron"></i>
                 </button>
                 <div id="nav-apresentacao" class="nav-section-children open">
                     <ul class="nav-list nav-sub"><li><a href="/apresentacao/01-por-que-governanca.html" class="nav-item "><span>Por que precisamos de Governança de IA?</span></a></li><li><a href="/apresentacao/02-riscos.html" class="nav-item active"><span>Riscos da falta de Governança</span></a></li><li><a href="/apresentacao/03-fundamentos-ia.html" class="nav-item "><span>Como a IA funciona</span></a></li><li><a href="/apresentacao/04-desejo-vs-realidade.html" class="nav-item "><span>Desejo vs. Realidade</span></a></li><li><a href="/apresentacao/05-evolucao-ti.html" class="nav-item "><span>Evolução da área de TI</span></a></li><li><a href="/apresentacao/06-niveis-de-uso.html" class="nav-item "><span>Níveis de uso de IA</span></a></li></ul>
@@ -50,7 +51,7 @@
     <header class="topbar" role="banner">
       <div class="topbar-left">
         <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
-        <nav class="breadcrumb" aria-label="Localização atual">{{BREADCRUMB}}</nav>
+        <nav class="breadcrumb" aria-label="Localização atual"><a href="../index.html" class="breadcrumb-link">Início</a> <i data-lucide="chevron-right" class="breadcrumb-sep"></i> <span class="breadcrumb-link">apresentacao</span> <i data-lucide="chevron-right" class="breadcrumb-sep"></i> <span class="breadcrumb-current">Riscos da falta de Governança</span></nav>
       </div>
       <div class="topbar-right">
         <button class="btn-icon" id="mobileSearchBtn" aria-label="Buscar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button>
@@ -60,7 +61,7 @@
     <div class="content-wrapper">
       <main id="main-content" class="article-main" tabindex="-1">
         <div class="article-header">
-          <div class="article-meta"><span class="article-tags" id="articleTags">{{TAGS}}</span></div>
+          <div class="article-meta"><span class="article-tags" id="articleTags"><span class="tag">riscos</span><span class="tag">segurança</span><span class="tag">lgpd</span></span></div>
           <h1 class="article-title">Riscos da falta de Governança</h1>
           <p class="article-desc">O uso descentralizado de IA pode gerar riscos operacionais, financeiros, regulatórios e de reputação.</p>
         </div>
@@ -103,7 +104,7 @@
 </div>
         <div class="article-footer"><div class="article-nav-links" id="articleNavLinks"></div></div>
       </main>
-      <aside class="toc-aside" aria-label="Nesta página">{{TOC}}</aside>
+      <aside class="toc-aside" aria-label="Nesta página"></aside>
     </div>
   </div>
   <div class="search-modal" id="searchModal" role="dialog" aria-modal="true" hidden>
