@@ -1,17 +1,13 @@
-/* Highlight.js – CSC Theme */
-.hljs { background: transparent; color: #1a2020; }
-.hljs-keyword, .hljs-selector-tag { color: #0f766e; font-weight: 600; }
-.hljs-string, .hljs-attr { color: #047857; }
-.hljs-number, .hljs-literal { color: #d97706; }
-.hljs-comment { color: #9ca3af; font-style: italic; }
-.hljs-function, .hljs-title { color: #2563eb; }
-.hljs-variable, .hljs-name { color: #7c3aed; }
-.hljs-type { color: #0891b2; }
-.hljs-tag { color: #0f766e; }
-.hljs-built_in { color: #dc2626; }
-
-[data-theme="dark"] .hljs { color: #c8d5d5; }
-[data-theme="dark"] .hljs-keyword { color: #2dd4bf; }
-[data-theme="dark"] .hljs-string { color: #6ee7b7; }
-[data-theme="dark"] .hljs-number { color: #fbbf24; }
-[data-theme="dark"] .hljs-comment { color: #4a6060; }
+/* Highlight.js — Tema CSC Brand Kit */
+/* Base: dark background (#1a1730) com cores do brand kit */
+.hljs { background: transparent; color: #e8e6ff; }
+.hljs-keyword, .hljs-selector-tag { color: #b8b4f5; font-weight: 700; }
+.hljs-string, .hljs-attr { color: #4fffea; }
+.hljs-number, .hljs-literal { color: #fce858; }
+.hljs-comment { color: #6b6890; font-style: italic; }
+.hljs-function, .hljs-title { color: #9d96e8; }
+.hljs-variable, .hljs-name { color: #4ec4b6; }
+.hljs-type { color: #4fffea; }
+.hljs-tag { color: #8a82e8; }
+.hljs-built_in { color: #f06d32; }
+.hljs-meta { color: #9b97b8; }
