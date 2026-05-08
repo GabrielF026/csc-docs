@@ -130,8 +130,12 @@ async function build() {
             .replace(/\{\{ROOT\}\}/g, relRoot)
             .replace(/\{\{TITLE\}\}/g, fm.title || 'Governança de IA')
             .replace(/\{\{DESCRIPTION\}\}/g, fm.description || '')
+            .replace(/\{\{TAGS\}\}/g, (fm.tags || []).join(', '))
             .replace(/\{\{NAV\}\}/g, renderNav(nav, pageUrl))
-            .replace(/\{\{CONTENT\}\}/g, bodyHtml);
+            .replace(/\{\{BREADCRUMB\}\}/g, breadcrumb) //
+            .replace(/\{\{CONTENT\}\}/g, bodyHtml)
+            .replace(/\{\{TOC\}\}/g, tocHtml);
+            
 
         fs.writeFileSync(outPath, finalPage);
         console.log(`✓ Gerado: ${file}`);
