@@ -12,7 +12,7 @@ const TEMPLATE_FILE = path.join(__dirname, 'templates', 'page.html');
 const STATIC_DIR = path.join(__dirname, 'static');
 const DIST_STATIC_DIR = path.join(DIST_DIR, 'static');
 
-// --- 2. CONFIGURAÇÃO DO MARKDOWN ---
+// --- 2. CONFIGURAÇÃO DO RENDERIZADOR ---
 const renderer = new Renderer();
 renderer.code = function({ text, lang }) {
     let highlighted;
@@ -29,7 +29,6 @@ marked.use({ renderer, gfm: true, breaks: true });
 
 // --- 3. FUNÇÕES DE SUPORTE ---
 
-// Copia pastas inteiras (essencial para o CSS/JS ir para a pasta dist)
 function copyDir(src, dest) {
     if (!fs.existsSync(src)) return;
     fs.mkdirSync(dest, { recursive: true });
@@ -40,35 +39,38 @@ function copyDir(src, dest) {
     }
 }
 
-// Constrói o menu lateral
 function buildNavTree(dir, baseUrl = '') {
     if (!fs.existsSync(dir)) return [];
     const entries = fs.readdirSync(dir, { withFileTypes: true });
-    
-    const dirs = entries.filter(e => e.isDirectory()).map(e => {
-        const m = path.join(dir, e.name, '_meta.json');
-        const sub = fs.existsSync(m) ? JSON.parse(fs.readFileSync(m, 'utf-8')) : {};
-        return { 
-            type: 'section', name: e.name, label: sub.label || e.name, 
-            icon: sub.icon || 'folder', order: sub.order || 99, 
-            url: `${baseUrl}/${e.name}`, 
-            children: buildNavTree(path.join(dir, e.name), `${baseUrl}/${e.name}`) 
-        };
-    });
+    const items = [];
 
-    const files = entries.filter(e => e.isFile() && e.name.endsWith('.md') && e.name !== 'index.md').map(e => {
-        const { data } = matter(fs.readFileSync(path.join(dir, e.name), 'utf-8'));
-        const slug = e.name.replace('.md', '');
-        return { 
-            type: 'page', name: slug, label: data.title || slug, 
-            icon: data.icon || 'file-text', order: data.order || 99, 
-            url: `${baseUrl}/${slug}.html` 
-        };
-    });
-    return [...dirs, ...files].sort((a, b) => a.order - b.order);
+    for (const entry of entries) {
+        const fullPath = path.join(dir, entry.name);
+        if (entry.isDirectory()) {
+            const metaPath = path.join(fullPath, '_meta.json');
+            const meta = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, 'utf-8')) : {};
+            items.push({
+                type: 'section',
+                name: entry.name,
+                label: meta.label || entry.name,
+                order: meta.order || 99,
+                url: `${baseUrl}/${entry.name}`,
+                children: buildNavTree(fullPath, `${baseUrl}/${entry.name}`)
+            });
+        } else if (entry.name.endsWith('.md') && entry.name !== 'index.md') {
+            const { data } = matter(fs.readFileSync(fullPath, 'utf-8'));
+            const slug = entry.name.replace('.md', '');
+            items.push({
+                type: 'page',
+                label: data.title || slug,
+                order: data.order || 99,
+                url: `${baseUrl}/${slug}.html`
+            });
+        }
+    }
+    return items.sort((a, b) => a.order - b.order);
 }
 
-// Gera o HTML do menu
 function renderNav(items, cur = '', depth = 0) {
     if (!items.length) return '';
     let html = `<ul class="nav-list ${depth > 0 ? 'nav-sub' : ''}">`;
@@ -78,6 +80,7 @@ function renderNav(items, cur = '', depth = 0) {
             html += `<li class="nav-section-item">
                 <button class="nav-section-toggle ${active ? 'open' : ''}" data-target="nav-${item.name}">
                     <span>${item.label}</span>
+                    <i data-lucide="chevron-right" class="nav-chevron"></i>
                 </button>
                 <div id="nav-${item.name}" class="nav-section-children ${active ? 'open' : ''}">
                     ${renderNav(item.children, cur, depth + 1)}
@@ -90,7 +93,7 @@ function renderNav(items, cur = '', depth = 0) {
     return html + '</ul>';
 }
 
-// --- 4. PROCESSO PRINCIPAL (BUILD) ---
+// --- 4. PROCESSO DE BUILD ---
 
 async function build() {
     console.log('🧹 Limpando pasta de distribuição...');
@@ -104,9 +107,10 @@ async function build() {
     const searchIndex = [];
     const mdFiles = await glob('**/*.md', { cwd: CONTENT_DIR });
     
+    const navTree = buildNavTree(CONTENT_DIR);
     const nav = [
-        { type: 'page', name: 'index', label: 'Início', order: 0, url: '/index.html' },
-        ...buildNavTree(CONTENT_DIR)
+        { type: 'page', label: 'Início', url: '/index.html' },
+        ...navTree
     ];
 
     for (const file of mdFiles) {
@@ -117,12 +121,28 @@ async function build() {
         
         fs.mkdirSync(path.dirname(outPath), { recursive: true });
 
-        // Calcula profundidade para não quebrar links de CSS/JS
         const depth = file.split('/').length - 1;
         const relRoot = depth > 0 ? '../'.repeat(depth) : './';
         const pageUrl = (file === 'index.md' ? '/index.html' : '/' + slug + '.html');
 
         const bodyHtml = marked.parse(content);
+        
+        // --- LÓGICA DO BREADCRUMB ---
+        const parts = slug.split('/').filter(p => p !== 'index' && p !== '');
+        let breadcrumb = `<a href="${relRoot}index.html" class="breadcrumb-link">Início</a>`;
+        if (parts.length > 0) {
+            breadcrumb += ` <i data-lucide="chevron-right" class="breadcrumb-sep"></i> `;
+            breadcrumb += parts.map((p, i) => {
+                const isLast = i === parts.length - 1;
+                return isLast ? `<span class="breadcrumb-current">${fm.title || p}</span>` : `<span class="breadcrumb-link">${p}</span>`;
+            }).join(' <i data-lucide="chevron-right" class="breadcrumb-sep"></i> ');
+        }
+
+        // --- LÓGICA DO TOC ---
+        const tocMatches = [...bodyHtml.matchAll(/<h([23])[^>]*id="([^"]*)"[^>]*>(.*?)<\/h[23]>/g)];
+        const tocHtml = tocMatches.length > 1
+            ? '<ul>' + tocMatches.map(([, l, id, t]) => `<li class="toc-item toc-h${l}"><a href="#${id}" class="toc-link">${t.replace(/<[^>]+>/g, '')}</a></li>`).join('') + '</ul>'
+            : '';
 
         searchIndex.push({ title: fm.title || slug, url: relRoot + (file === 'index.md' ? 'index.html' : slug + '.html') });
 
@@ -130,19 +150,18 @@ async function build() {
             .replace(/\{\{ROOT\}\}/g, relRoot)
             .replace(/\{\{TITLE\}\}/g, fm.title || 'Governança de IA')
             .replace(/\{\{DESCRIPTION\}\}/g, fm.description || '')
-            .replace(/\{\{TAGS\}\}/g, (fm.tags || []).join(', '))
+            .replace(/\{\{TAGS\}\}/g, fm.tags ? fm.tags.map(t => `<span class="tag">${t}</span>`).join('') : '')
             .replace(/\{\{NAV\}\}/g, renderNav(nav, pageUrl))
-            .replace(/\{\{BREADCRUMB\}\}/g, breadcrumb) //
+            .replace(/\{\{BREADCRUMB\}\}/g, breadcrumb)
             .replace(/\{\{CONTENT\}\}/g, bodyHtml)
             .replace(/\{\{TOC\}\}/g, tocHtml);
-            
 
         fs.writeFileSync(outPath, finalPage);
         console.log(`✓ Gerado: ${file}`);
     }
 
     fs.writeFileSync(path.join(DIST_DIR, 'search-index.json'), JSON.stringify(searchIndex, null, 2));
-    console.log(`\n✅ Pronto! O Workflow agora pode levar a pasta "dist" completa.`);
+    console.log(`\n✅ Build finalizado com sucesso!`);
 }
 
 build().catch(err => {
