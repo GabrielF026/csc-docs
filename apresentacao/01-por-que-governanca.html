@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Entenda o contexto, os desafios e as oportunidades para o uso organizado de IA no Grupo CSC." />
+  <title>Por que precisamos de Governança de IA? | Governança de IA — Grupo CSC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=DM+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./static/css/hljs-csc.css" />
+  <link rel="stylesheet" href="./static/css/style.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Ir para o conteúdo</a>
+  <div class="scroll-progress" id="scrollProgress" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="sidebar-overlay" id="sidebarOverlay" aria-hidden="true"></div>
+  <aside class="sidebar" id="sidebar" aria-label="Navegação principal">
+    <div class="sidebar-header">
+      <div class="sidebar-logo">
+        <div class="logo-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <div class="logo-text"><span class="logo-name">Governança de IA</span><span class="logo-org">Grupo CSC</span></div>
+      </div>
+      <button class="sidebar-collapse-btn" id="sidebarCollapseBtn" aria-label="Colapsar sidebar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+    </div>
+    <div class="sidebar-search">
+      <button class="search-trigger" id="searchTrigger" aria-label="Buscar">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <span>Buscar...</span><kbd class="search-kbd">⌘K</kbd>
+      </button>
+    </div>
+    <nav class="sidebar-nav"><ul class="nav-list "><li><a href="/index.html" class="nav-item "><span>Início</span></a></li><li class="nav-section-item">
+                <button class="nav-section-toggle open" data-target="nav-apresentacao">
+                    <span>Apresentação</span>
+                </button>
+                <div id="nav-apresentacao" class="nav-section-children open">
+                    <ul class="nav-list nav-sub"><li><a href="/apresentacao/01-por-que-governanca.html" class="nav-item active"><span>Por que precisamos de Governança de IA?</span></a></li><li><a href="/apresentacao/02-riscos.html" class="nav-item "><span>Riscos da falta de Governança</span></a></li><li><a href="/apresentacao/03-fundamentos-ia.html" class="nav-item "><span>Como a IA funciona</span></a></li><li><a href="/apresentacao/04-desejo-vs-realidade.html" class="nav-item "><span>Desejo vs. Realidade</span></a></li><li><a href="/apresentacao/05-evolucao-ti.html" class="nav-item "><span>Evolução da área de TI</span></a></li><li><a href="/apresentacao/06-niveis-de-uso.html" class="nav-item "><span>Níveis de uso de IA</span></a></li></ul>
+                </div>
+            </li></ul></nav>
+    <div class="sidebar-footer">
+      <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <span class="theme-label">Tema</span>
+      </button>
+      <span class="sidebar-version">v1.0</span>
+    </div>
+  </aside>
+  <div class="layout-main">
+    <header class="topbar" role="banner">
+      <div class="topbar-left">
+        <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav class="breadcrumb" aria-label="Localização atual">{{BREADCRUMB}}</nav>
+      </div>
+      <div class="topbar-right">
+        <button class="btn-icon" id="mobileSearchBtn" aria-label="Buscar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button>
+        <a href="https://github.com/GabrielF026/csc-docs" class="btn-outline-sm" target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg> GitHub</a>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <main id="main-content" class="article-main" tabindex="-1">
+        <div class="article-header">
+          <div class="article-meta"><span class="article-tags" id="articleTags">{{TAGS}}</span></div>
+          <h1 class="article-title">Por que precisamos de Governança de IA?</h1>
+          <p class="article-desc">Entenda o contexto, os desafios e as oportunidades para o uso organizado de IA no Grupo CSC.</p>
+        </div>
+        <div class="article-body" id="articleBody"><h2>O que está acontecendo hoje</h2>
+<p>Ferramentas como ChatGPT, Gemini e Claude já fazem parte do dia a dia de muita gente no trabalho — e isso é positivo. Cada vez mais colaboradores ganham velocidade e autonomia usando IA para escrever textos, analisar dados e automatizar tarefas.</p>
+<p>O problema é que cada área está resolvendo os próprios problemas <strong>sem conversar com as outras</strong>.</p>
+<h2>O que pode dar errado</h2>
+<p>Sem organização, dois riscos crescem silenciosamente:</p>
+<ul>
+<li><strong>Retrabalho:</strong> duas áreas podem criar a mesma solução ao mesmo tempo sem saber</li>
+<li><strong>Dados em risco:</strong> alguém pode usar IA com informações confidenciais sem perceber o problema</li>
+</ul>
+<h2>Por que isso é uma oportunidade</h2>
+<p>Com regras claras e organização, o que funciona em uma área pode ser aproveitado por todas. A IA deixa de ser algo isolado e vira uma <strong>vantagem real para o negócio inteiro</strong>.</p>
+<blockquote>
+<p><strong>Governança não é burocracia — é o que transforma uma boa ideia isolada em valor para toda a empresa.</strong></p>
+</blockquote>
+<h2>O que precisamos fazer</h2>
+<table>
+<thead>
+<tr>
+<th>Ação</th>
+<th>Por quê</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Padronizar o uso de IA</td>
+<td>Regras claras e consistentes evitam retrabalho</td>
+</tr>
+<tr>
+<td>Garantir segurança e conformidade</td>
+<td>Políticas de uso desde o início</td>
+</tr>
+<tr>
+<td>Criar cultura estruturada</td>
+<td>Conscientização, treinamento e apoio</td>
+</tr>
+<tr>
+<td>Permitir escala corporativa</td>
+<td>Levar as melhores soluções para todo o Grupo</td>
+</tr>
+</tbody></table>
+</div>
+        <div class="article-footer"><div class="article-nav-links" id="articleNavLinks"></div></div>
+      </main>
+      <aside class="toc-aside" aria-label="Nesta página">{{TOC}}</aside>
+    </div>
+  </div>
+  <div class="search-modal" id="searchModal" role="dialog" aria-modal="true" hidden>
+    <div class="search-modal-backdrop" id="searchBackdrop"></div>
+    <div class="search-modal-box">
+      <div class="search-input-wrap">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="search" id="searchInput" class="search-input" placeholder="Buscar na documentação..." autocomplete="off" />
+        <kbd class="search-kbd">Esc</kbd>
+      </div>
+      <div class="search-results" id="searchResults" role="listbox"><p class="search-hint">Digite para buscar...</p></div>
+    </div>
+  </div>
+  <script src="./static/js/main.js"></script>
+</body>
+</html>

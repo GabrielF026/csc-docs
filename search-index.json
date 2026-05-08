@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Bem-vindo à Documentação",
+    "url": "./index.html"
+  },
+  {
+    "title": "Níveis de uso de IA",
+    "url": "../apresentacao/06-niveis-de-uso.html"
+  },
+  {
+    "title": "Evolução da área de TI",
+    "url": "../apresentacao/05-evolucao-ti.html"
+  },
+  {
+    "title": "Desejo vs. Realidade",
+    "url": "../apresentacao/04-desejo-vs-realidade.html"
+  },
+  {
+    "title": "Como a IA funciona",
+    "url": "../apresentacao/03-fundamentos-ia.html"
+  },
+  {
+    "title": "Riscos da falta de Governança",
+    "url": "../apresentacao/02-riscos.html"
+  },
+  {
+    "title": "Por que precisamos de Governança de IA?",
+    "url": "../apresentacao/01-por-que-governanca.html"
+  }
+]
