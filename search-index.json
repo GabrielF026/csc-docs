@@ -1,50 +1,75 @@
 [
   {
-    "title": "index",
-    "description": "",
+    "title": "Bem-vindo à Documentação",
+    "description": "Central de Governança de IA do Grupo CSC — tudo que você precisa saber sobre o uso seguro, padronizado e escalável de Inteligência Artificial.",
     "tags": [],
     "url": "./index.html",
     "path": "/index.html"
   },
   {
-    "title": "apresentacao/06-niveis-de-uso",
-    "description": "",
-    "tags": [],
+    "title": "Níveis de uso de IA",
+    "description": "Os 5 níveis de maturidade para uso de IA no Grupo CSC — do colaborador à plataforma crítica.",
+    "tags": [
+      "níveis",
+      "autonomia",
+      "controle",
+      "política"
+    ],
     "url": "../apresentacao/06-niveis-de-uso.html",
     "path": "/apresentacao/06-niveis-de-uso.html"
   },
   {
-    "title": "apresentacao/05-evolucao-ti",
-    "description": "",
-    "tags": [],
+    "title": "Evolução da área de TI",
+    "description": "A jornada de Dados → IA → Governança no Grupo CSC desde 2024.",
+    "tags": [
+      "data-lake",
+      "data-mesh",
+      "história"
+    ],
     "url": "../apresentacao/05-evolucao-ti.html",
     "path": "/apresentacao/05-evolucao-ti.html"
   },
   {
-    "title": "apresentacao/04-desejo-vs-realidade",
-    "description": "",
-    "tags": [],
+    "title": "Desejo vs. Realidade",
+    "description": "Nem todo uso de IA gera valor. Equilíbrio entre desejo, viabilidade e impacto real.",
+    "tags": [
+      "estratégia",
+      "decisão",
+      "roi"
+    ],
     "url": "../apresentacao/04-desejo-vs-realidade.html",
     "path": "/apresentacao/04-desejo-vs-realidade.html"
   },
   {
-    "title": "apresentacao/03-fundamentos-ia",
-    "description": "",
-    "tags": [],
+    "title": "Como a IA funciona",
+    "description": "Tokens, custos e como usar IA de forma consciente e econômica.",
+    "tags": [
+      "tokens",
+      "custo",
+      "fundamentos"
+    ],
     "url": "../apresentacao/03-fundamentos-ia.html",
     "path": "/apresentacao/03-fundamentos-ia.html"
   },
   {
-    "title": "apresentacao/02-riscos",
-    "description": "",
-    "tags": [],
+    "title": "Riscos da falta de Governança",
+    "description": "O uso descentralizado de IA pode gerar riscos operacionais, financeiros, regulatórios e de reputação.",
+    "tags": [
+      "riscos",
+      "segurança",
+      "lgpd"
+    ],
     "url": "../apresentacao/02-riscos.html",
     "path": "/apresentacao/02-riscos.html"
   },
   {
-    "title": "apresentacao/01-por-que-governanca",
-    "description": "",
-    "tags": [],
+    "title": "Por que precisamos de Governança de IA?",
+    "description": "Entenda o contexto, os desafios e as oportunidades para o uso organizado de IA no Grupo CSC.",
+    "tags": [
+      "governança",
+      "introdução",
+      "estratégia"
+    ],
     "url": "../apresentacao/01-por-que-governanca.html",
     "path": "/apresentacao/01-por-que-governanca.html"
   }
